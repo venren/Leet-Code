@@ -5,6 +5,10 @@ from typing import List
 # Explanation: [3,0,6,1,5] means the researcher has 5 papers in total and each of them had received 3, 0, 6, 1, 5 citations respectively.
 # Since the researcher has 3 papers with at least 3 citations each and the remaining two with no more than 3 citations each, their h-index is 3.
 
+#According to the definition of h-index on Wikipedia:
+# The h-index is defined as the maximum value of h such that the given researcher has published at least h
+# papers that have each been cited at least h times.
+
 class Solution:
     def hIndexOrderOfNSolution(self, citations: List[int]) -> int:
 
